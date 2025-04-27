@@ -1,0 +1,35 @@
+<!DOCTYPE html>  
+<html lang="en">  
+<head>  
+    <title>Halaman Biodata</title>  
+    <link rel="stylesheet" href="style.css">  
+    <link href="https://fonts.googleapis.com/css?family=Great+Vibes&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css?family=Family+Lobster&display=swap" rel="stylesheet">  
+    <meta charset="utf-8">  
+</head>  
+<body>  
+    <center>  
+        <h1>Pemandangan Alam Indonesia</h1>  
+        <ul>  
+            <li id="video">Pemandangan Alam</li>  
+            <video controls width="300" height="500" loop autoplay muted preload="auto">  
+                <source src="Pemandangan Alam.mp4" type="video/mp4">  
+                <track kind="captions" src="Video Feel My Rythm.vtt" srclang="en" label="English">  
+            </video>  
+            </li>  
+            <li id="audio">Suara Tradisional</li>  
+            <audio controls>  
+                <source src="Suara Tradisional.mp3" type="audio/mp3">  
+            </audio>  
+            </li>  
+            <li id="gambar">Tari Tradisional</li>  
+            <picture>  
+                <source media="(max-width: 600px)" srcset="Tari Tradisional.jpg">  
+                <source media="(max-width: 1200px)" srcset="Tari Tradisional.jpg">  
+                <img src="Tari Tradisional.jpg" alt="pic" style="width:auto;">  
+            </picture>  
+        </ul>  
+    </center>  
+    <script src="jscHS.js"></script>  
+</body>  
+</html>  

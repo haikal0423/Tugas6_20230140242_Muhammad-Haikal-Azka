@@ -1,0 +1,48 @@
+body {  
+    background-image: url(https://i.pinimg.com/originals/4f/26/72/4f2672cec84143c64b1bf037b2cdaff0.jpg);  
+    background-repeat: no-repeat;  
+    background-attachment: fixed;  
+    background-size: cover;  
+    font-family: 'Noto Serif', serif;  
+    color: #4B3D2E;  
+}  
+
+.container {  
+    max-width: 800px;  
+    margin: 0 auto;  
+    padding: 20px;  
+    background-color: rgba(255, 245, 235, 0.8); /* Background lebih lembut dan tradisional */  
+    border-radius: 10px;  
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);  
+    text-align: center;  
+}  
+
+h1 {  
+    font-family: 'Great Vibes', cursive;  
+    font-size: 3em;  
+    color: #6D4C41;  
+}  
+
+h2 {  
+    font-family: 'Noto Serif', serif;  
+    text-align: center;  
+    border: 2px solid #8B4513;  
+    background: #FFE0B2;  
+    color: #6D4C41;  
+    border-radius: 8px;  
+    padding: 10px;  
+    margin: 20px 0;  
+}  
+
+.media-list {  
+    list-style-type: none;  
+    padding: 0;  
+}  
+
+.media-content {  
+    max-width: 60%; /* Ukuran maksimum disesuaikan */  
+    height: auto;  
+    margin: 0 auto;  
+    border-radius: 8px;  
+    display: block; /* Agar video dan audio ditengahkan */  
+}  
